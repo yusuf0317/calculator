@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Viga;
+}
+
+body {
+    background-color: white;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: fixed;
+    background-color: rgb(7, 87, 13);
+    padding: 25px;
+    box-shadow: 0 0 15px;
+}
+
+.main h2 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    border: none;
+    background: #607d8b;
+    color: white;
+}
+
+.btn-green {
+    background-color: lightgreen;
+    color: #607d8b;
+}
+
+.textarea {
+    width: 198px;
+    margin: 4px 4px 20px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    color: #607d8b;
+    text-align: center;
+}
